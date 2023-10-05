@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+.card-location {
+    background-color: #7B7B74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: 75px;
+    border-radius: 5px;
+    width: 1000px;
+    height: 500px;
+    font-family: "Dosis", sans-serif;
+}
+
+.card-location p {
+    color: white;
+    padding-right: 69px;
+}
+
+.card-location .loc-head {
+    font-size: 40px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 800;
+}
+
+.card-location .loc-body {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-location img {
+    width: 436px;
+    height: 330px;
+    border-radius: 5px;
+}
