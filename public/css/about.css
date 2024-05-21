@@ -15,22 +15,22 @@
   font-size: 32px;
   margin-left: 80px;
 }
-.content-about
-.about-1,
+.content-about .about-1,
 .about-3 {
   width: 550px;
   height: 184px;
   font-size: 15px;
   font-weight: 700;
   margin-left: 80px;
+  text-align: justify;
 }
 
-.content-about
-.about-2,
+.content-about .about-2,
 .about-4 {
   width: 550px;
   height: 184px;
   font-size: 15px;
   font-weight: 700;
   margin-left: 170px;
+  text-align: justify;
 }

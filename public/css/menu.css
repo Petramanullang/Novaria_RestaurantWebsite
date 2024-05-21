@@ -2,81 +2,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
 
 nav {
-    position: fixed top;
+  position: fixed top;
 }
 
-
 .content-menu .menu {
-    font-family: "Dosis", sans-serif;
-    font-size: 32px;
-    margin-left: 80px;
-    margin-top: 21px;
-
+  font-family: "Dosis", sans-serif;
+  font-size: 32px;
+  margin-left: 80px;
+  margin-top: 21px;
 }
 
 .card-food {
-    display: flex;
-    background-color: #F5F5DC;
-    width: 504px;
-    height: 197px;
-    margin-left: 80px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 0 0 rgb(0, 0, 0, 0.3);
+  display: flex;
+  background-color: #f5f5dc;
+  width: 504px;
+  height: 197px;
+  margin-left: 80px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 0 0 rgb(0, 0, 0, 0.3);
 }
 
 .card-food img {
-    background-color: aquamarine;
-    width: 200px;
-    height: 150px;
-    margin-top: 24px;
-    margin-left: 32px;
-    border-radius: 5px;
+  background-color: aquamarine;
+  width: 200px;
+  height: 150px;
+  margin-top: 24px;
+  margin-left: 32px;
+  border-radius: 5px;
 }
 
 .card-food p {
-    font-size: 30px;
-    margin-left: 30px;
+  font-size: 30px;
+  margin-left: 30px;
 }
 
 .card-food .price {
-    font-size: 20px;
-    color: #7B7B74;
+  font-size: 20px;
+  color: #7b7b74;
 }
 
 .order-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 158px;
-    height: 55px;
-    background-color: #618264;
-    color: white;
-    font-size: 30px;
-    position: relative;
-    border-radius: 5px;
-    top: 120px;
-    left: -230px;
-    box-shadow: 3px 3px 0 0 rgb(0, 0, 0, 0.4);
-    z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 158px;
+  height: 55px;
+  background-color: #618264;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  border-radius: 5px;
+  top: 120px;
+  left: -230px;
+  box-shadow: 3px 3px 0 0 rgb(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .order-btn:hover {
-    position: relative;
-    top: 125px;
-    left: -225px;
-    color: black;
-    box-shadow: none;
+  position: relative;
+  top: 125px;
+  left: -225px;
+  color: black;
+  box-shadow: none;
+  cursor: pointer;
 }
 
 .row-1,
 .row-2,
-.row-3{
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 34px;
+.row-3 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 34px;
 }
 
 .content-menu .foods .card-food .steak {
-    font-size: 28px;
-    padding-bottom: 2px;
+  font-size: 28px;
+  padding-bottom: 2px;
 }
